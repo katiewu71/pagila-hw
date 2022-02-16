@@ -3,3 +3,10 @@
  * HINT:
  * Use the count() aggregation function and the rating column of the film table.
  */
+
+SELECT
+   Count(*)
+FROM
+   film
+WHERE
+   rating = 'G';
