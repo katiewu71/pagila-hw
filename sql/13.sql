@@ -18,8 +18,7 @@ FROM
 WHERE
    ((LEFT(title, 1) = 'K'
       OR LEFT(title, 1) = 'Q')
-      AND name = 'English'
-   )
+      AND name = 'English')
 GROUP BY
    film_id,
    title,
